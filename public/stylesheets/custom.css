@@ -11,7 +11,7 @@ header {
 }
 
 /* pages/home.html.erb pasta image */
-#ColoredPasta {
+img {
    padding: 1em;
    background: #fff;
    width: 200px;

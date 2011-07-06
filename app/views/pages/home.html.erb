@@ -1,9 +1,10 @@
 <h1>MoreAmore</h1>
 <p>
 This is the home page for the
-<a href="http://localhost:3000/">Moreamore Delicious Foods</a>
+<!--a href="http://localhost:3000/">Moreamore Delicious Foods</a-->
+<%= link_to title, root_path %> 
 website.
 </p>
-<%= image_tag("MP900448358.JPG", :id => "ColoredPasta", :alt => "MoreAmore", :class => "round") %>
-<%= link_to "Shop Now !", '#', :class => "signup_button round" %>
+<%= image_tag("MP900448358.JPG", :id => "ColoredPasta", :alt => "MoreAmore", :class => "round") %>  
+<%= link_to "Shop Now !", '#', :class => "signup_button round" %> 
 <%= link_to "Sign up !", signup_path, :class => "signup_button round" %>
