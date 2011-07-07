@@ -1,6 +1,7 @@
 Moreamore::Application.routes.draw do
   get "users/new"
 
+    resources :users
     match '/signup' => 'users#new'
     match '/contact' => 'pages#contact'
     match '/about' => 'pages#about'
